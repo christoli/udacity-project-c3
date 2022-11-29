@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: ./udagram-reverseproxy
+    image: reverseproxy:v3d
+  api_user:
+    build:
+      context: ./udagram-api-user
+    image: udagram-api-user:v3d
+  api_feed:
+    build:
+      context: ./udagram-api-feed
+    image: udagram-api-feed:v3d
+  frontend:
+    build:
+      context: ./udagram-frontend
+    image: udagram-frontend:local
