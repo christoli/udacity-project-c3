@@ -3,15 +3,15 @@ services:
   reverseproxy:
     build:
       context: ./udagram-reverseproxy
-    image: reverseproxy:v3d
+    image: reverseproxy:v3e
   api_user:
     build:
       context: ./udagram-api-user
-    image: udagram-api-user:v3d
+    image: udagram-api-user:v3e
   api_feed:
     build:
       context: ./udagram-api-feed
-    image: udagram-api-feed:v3d
+    image: udagram-api-feed:v3e
   frontend:
     build:
       context: ./udagram-frontend
