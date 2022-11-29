@@ -29,5 +29,5 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push christoli/udagram-reverseproxy:v3e
   - docker push christoli/udagram-api-feed:v3e
-  - docker push christoli/christoli/udagram-api-user:v3e
+  - docker push christoli/udagram-api-user:v3e
   - docker push christoli/udagram-frontend:local
