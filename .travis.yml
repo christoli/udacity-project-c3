@@ -30,4 +30,4 @@ after_success:
   - docker push christoli/udagram-reverseproxy:v3e
   - docker push christoli/udagram-api-feed:v3e
   - docker push christoli/udagram-api-user:v3e
-  - docker push christoli/udagram-frontend:v3e
+  - docker push christoli/udagram-frontend:v4a
